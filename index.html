@@ -1,0 +1,37 @@
+<!doctype HTML>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>Simple PHP dropbox by ipro8g@gmail.com</title>
+	
+	</head>
+
+	<body>
+	
+		<div id="upload_container" style="display:flex;flex-direction:column;align-items:center;border:2px solid black;margin:5px;padding:5px;border-radius:5px;">
+		
+			
+			author
+			<input type="text" id="author"></input>
+  
+			comment
+			<textarea id="comment" rows="10" cols="20"></textarea>
+  
+			file
+			<input type="file" id="file"></input>
+			
+			<button onclick="send_post()">Send</button>
+		
+		</div>
+	
+		<div id="post_container" style="display:flex;flex-direction:column;align-items:center;border:2px solid black;margin:5px;padding:5px;border-radius:5px;">
+		
+		</div>
+	
+		<script src="main.js"></script>
+	</body>
+	
+</html>
