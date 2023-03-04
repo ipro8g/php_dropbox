@@ -32,7 +32,7 @@ $limit = 700;
 $max = 0;
 $winner_combination = [];
 
-$sim_number = count($cows)*2;
+$sim_number = count($cows)*count($cows);
 
 for($i = 0; $i <= $sim_number; $i++){
 
